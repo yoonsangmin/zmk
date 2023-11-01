@@ -29,7 +29,7 @@ const lv_img_dsc_t *image_array[] = {
     &balloon,
     &mountain,
 };
-size_t image_count = sizeof(image_array) / sizeof(image_array[0]);
+size_t image_count = 2;
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
