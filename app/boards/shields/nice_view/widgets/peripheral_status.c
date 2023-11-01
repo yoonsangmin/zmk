@@ -24,12 +24,19 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 LV_IMG_DECLARE(balloon);
 LV_IMG_DECLARE(mountain);
+LV_IMG_DECLARE(city);
+LV_IMG_DECLARE(spaceship);
+LV_IMG_DECLARE(pyramid);
+LV_IMG_DECLARE(meteor);
 
 const lv_img_dsc_t *image_array[] = {
     &balloon,
-    &mountain,
+    &city,
+    &spaceship,
+    &pyramid,
+    &meteor,
 };
-size_t image_count = 2;
+size_t image_count = 5;
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
